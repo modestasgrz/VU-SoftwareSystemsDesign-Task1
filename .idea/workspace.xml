@@ -1,7 +1,16 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="" />
+    <list default="true" id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTests/PasswordChecker_Tests.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Task1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task1.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationClasses/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationClasses/PasswordChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/PhoneValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationClasses/PhoneValidator.java" afterDir="false" />
+    </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
     <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
@@ -13,6 +22,9 @@
         <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="1xuxG89piaZgT7D44sX9cVkIRlE" />
   <component name="ProjectViewState">
@@ -26,16 +38,17 @@
     <property name="Repository.Attach.JavaDocs" value="false" />
     <property name="Repository.Attach.Sources" value="false" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
   <component name="RunManager" selected="JUnit.EmailValidator.testSomeEmails">
     <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="UnitTests.EmailValidator" />
+      <option name="MAIN_CLASS_NAME" value="ValidationClasses.EmailValidator" />
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.*" />
+          <option name="PATTERN" value="ValidationClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -47,12 +60,12 @@
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.*" />
+          <option name="PATTERN" value="ValidationClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.EmailValidator" />
+      <option name="PACKAGE_NAME" value="ValidationClasses" />
+      <option name="MAIN_CLASS_NAME" value="ValidationClasses.EmailValidator" />
       <option name="METHOD_NAME" value="testSomeEmails(java.lang.String)" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
@@ -63,12 +76,12 @@
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.*" />
+          <option name="PATTERN" value="ValidationClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.PasswordChecker" />
+      <option name="PACKAGE_NAME" value="ValidationClasses" />
+      <option name="MAIN_CLASS_NAME" value="ValidationClasses.PasswordChecker" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -78,12 +91,12 @@
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="UnitTests.*" />
+          <option name="PATTERN" value="ValidationClasses.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="UnitTests" />
-      <option name="MAIN_CLASS_NAME" value="UnitTests.PhoneValidator" />
+      <option name="PACKAGE_NAME" value="ValidationClasses" />
+      <option name="MAIN_CLASS_NAME" value="ValidationClasses.PhoneValidator" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -110,6 +123,7 @@
       <updated>1631218675394</updated>
       <workItem from="1631218678571" duration="3384000" />
       <workItem from="1631259039569" duration="7818000" />
+      <workItem from="1631552378313" duration="3998000" />
     </task>
     <servers />
   </component>
@@ -137,13 +151,13 @@
     </state>
     <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
     <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631261498292" />
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1631259655298">
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1631552427885">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631259655298" />
-    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631219606685">
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631552427885" />
+    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631554505404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631219606685" />
+    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631554505404" />
   </component>
 </project>
