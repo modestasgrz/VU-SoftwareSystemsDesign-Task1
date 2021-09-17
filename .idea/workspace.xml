@@ -4,8 +4,6 @@
     <list default="true" id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/UnitTests/EmailValidator_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTests/EmailValidator_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTests/PasswordChecker_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTests/PasswordChecker_Tests.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -121,7 +119,7 @@
       <workItem from="1631259039569" duration="7818000" />
       <workItem from="1631552378313" duration="4219000" />
       <workItem from="1631697140251" duration="71000" />
-      <workItem from="1631877467942" duration="3095000" />
+      <workItem from="1631877467942" duration="3269000" />
     </task>
     <servers />
   </component>
