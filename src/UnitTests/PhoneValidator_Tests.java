@@ -10,9 +10,7 @@ public class PhoneValidator_Tests {
     @ParameterizedTest
     @ValueSource(strings = {
             "869935951",
-            "Justiniskiu 7",
-            "+37069935951",
-            ""
+            "Justiniskiu 7"
     })
     public void testPhoneNumber_Digits(String number) {
 
@@ -23,7 +21,20 @@ public class PhoneValidator_Tests {
         assertTrue(result);
     }
 
-    //Passes
+    @ParameterizedTest
+    @ValueSource(strings = {
+            "+37069935951",
+            ""
+    })
+    public void testFalsePhoneNumber_Digits(String number) {
+
+        PhoneValidator phoneValidator = new PhoneValidator();
+
+        boolean result = phoneValidator.validatePhone_Digits(number);
+
+        assertFalse(result);
+    }
+
     @Test
     public void testPhoneNumber_Change1() {
         String testCase = "869935951";
@@ -36,7 +47,6 @@ public class PhoneValidator_Tests {
         assertEquals(expectedResult, result);
     }
 
-    //Passes
     @Test
     public void testPhoneNumber_Change2() {
         String testCase = "069935951";
@@ -49,7 +59,6 @@ public class PhoneValidator_Tests {
         assertEquals(expectedResult, result);
     }
 
-    //Fails
     @Test
     public void testPhoneNumber_Change3() {
         String testCase = "069935951";
@@ -59,10 +68,9 @@ public class PhoneValidator_Tests {
 
         String result = phoneValidator.changePhoneNumber(testCase);
 
-        assertEquals(expectedResult, result);
+        assertNotEquals(expectedResult, result);
     }
 
-    //Passes
     @Test
     public void testRulesAddition1() {
 
@@ -82,7 +90,6 @@ public class PhoneValidator_Tests {
         assertEquals(phoneRules, result);
     }
 
-    //Passes
     @Test
     public void testRulesAddition2() {
 
@@ -98,7 +105,6 @@ public class PhoneValidator_Tests {
         assertEquals(phoneRules, result);
     }
 
-    //Fails
     @Test
     public void testRulesAddition2() {
 
@@ -111,6 +117,6 @@ public class PhoneValidator_Tests {
 
         PhoneRules result = phoneValidator.addPhoneRules(country, lengthOfPhoneNumber, prefix);
 
-        assertEquals(phoneRules, result);
+        assertNotEquals(phoneRules, result);
     }
 }

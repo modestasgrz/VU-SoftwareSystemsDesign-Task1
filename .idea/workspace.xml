@@ -2,14 +2,10 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTests/PasswordChecker_Tests.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Task1.iml" beforeDir="false" afterPath="$PROJECT_DIR$/Task1.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTests/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationClasses/EmailValidator.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTests/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationClasses/PasswordChecker.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTests/PhoneValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/ValidationClasses/PhoneValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/EmailValidator_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTests/EmailValidator_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/PasswordChecker_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTests/PasswordChecker_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -123,7 +119,9 @@
       <updated>1631218675394</updated>
       <workItem from="1631218678571" duration="3384000" />
       <workItem from="1631259039569" duration="7818000" />
-      <workItem from="1631552378313" duration="3998000" />
+      <workItem from="1631552378313" duration="4219000" />
+      <workItem from="1631697140251" duration="71000" />
+      <workItem from="1631877467942" duration="3095000" />
     </task>
     <servers />
   </component>
@@ -131,6 +129,10 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="1002" y="262" key="FileChooserDialogImpl" timestamp="1631697211147">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1002" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697211147" />
     <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1631267552754">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -151,13 +153,18 @@
     </state>
     <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
     <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631261498292" />
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1631552427885">
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1631697138520">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697138520" />
     <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631552427885" />
     <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631554505404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631554505404" />
+    <state x="605" y="141" key="new project wizard" timestamp="1631697212422">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="141" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697212422" />
   </component>
 </project>
