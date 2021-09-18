@@ -10,7 +10,7 @@ public class PhoneValidator_Tests {
     @ParameterizedTest
     @ValueSource(strings = {
             "869935951",
-            "Justiniskiu 7"
+            "861234567"
     })
     public void testPhoneNumber_Digits(String number) {
 
@@ -24,7 +24,8 @@ public class PhoneValidator_Tests {
     @ParameterizedTest
     @ValueSource(strings = {
             "+37069935951",
-            ""
+            "",
+            "Justiniskiu 7"
     })
     public void testFalsePhoneNumber_Digits(String number) {
 
