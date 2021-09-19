@@ -3,7 +3,13 @@
   <component name="ChangeListManager">
     <list default="true" id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task1/UnitTests/EmailValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task1/UnitTests/PasswordChecker.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/out/production/Task1/UnitTests/PhoneValidator.class" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/EmailValidator_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/PasswordChecker_Tests.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/PhoneRules.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/UnitTests/PhoneValidator_Tests.java" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -36,72 +42,91 @@
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="aspect.path.notification.shown" value="true" />
   </component>
-  <component name="RunManager" selected="JUnit.EmailValidator.testSomeEmails">
-    <configuration name="EmailValidator" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="ValidationClasses.EmailValidator" />
+  <component name="RunManager" selected="JUnit.PhoneValidatorTest">
+    <configuration name="EmailValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ValidationClasses.*" />
+          <option name="PATTERN" value="GivenUnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.EmailValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="EmailValidator.testSomeEmails" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="EmailValidatorTest.specialCharacterFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ValidationClasses.*" />
+          <option name="PATTERN" value="GivenUnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ValidationClasses" />
-      <option name="MAIN_CLASS_NAME" value="ValidationClasses.EmailValidator" />
-      <option name="METHOD_NAME" value="testSomeEmails(java.lang.String)" />
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.EmailValidatorTest" />
+      <option name="METHOD_NAME" value="specialCharacterFirst" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PasswordChecker" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PasswordCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ValidationClasses.*" />
+          <option name="PATTERN" value="GivenUnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ValidationClasses" />
-      <option name="MAIN_CLASS_NAME" value="ValidationClasses.PasswordChecker" />
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.PasswordCheckerTest" />
       <option name="TEST_OBJECT" value="class" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="PhoneValidator" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+    <configuration name="PhoneValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="Task1" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="ValidationClasses.*" />
+          <option name="PATTERN" value="GivenUnitTests.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
-      <option name="PACKAGE_NAME" value="ValidationClasses" />
-      <option name="MAIN_CLASS_NAME" value="ValidationClasses.PhoneValidator" />
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.PhoneValidatorTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneValidatorTest.changeToCountryCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GivenUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.PhoneValidatorTest" />
+      <option name="METHOD_NAME" value="changeToCountryCode" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
     </configuration>
     <recent_temporary>
       <list>
-        <item itemvalue="JUnit.EmailValidator.testSomeEmails" />
-        <item itemvalue="Application.EmailValidator" />
-        <item itemvalue="JUnit.PhoneValidator" />
-        <item itemvalue="JUnit.PasswordChecker" />
+        <item itemvalue="JUnit.PhoneValidatorTest" />
+        <item itemvalue="JUnit.EmailValidatorTest" />
+        <item itemvalue="JUnit.PasswordCheckerTest" />
+        <item itemvalue="JUnit.PhoneValidatorTest.changeToCountryCode" />
+        <item itemvalue="JUnit.EmailValidatorTest.specialCharacterFirst" />
       </list>
     </recent_temporary>
   </component>
@@ -120,7 +145,10 @@
       <workItem from="1631552378313" duration="4219000" />
       <workItem from="1631697140251" duration="71000" />
       <workItem from="1631877467942" duration="3269000" />
-      <workItem from="1631962570727" duration="318000" />
+      <workItem from="1631962570727" duration="856000" />
+      <workItem from="1631963594652" duration="852000" />
+      <workItem from="1631965224251" duration="9571000" />
+      <workItem from="1632060167539" duration="332000" />
     </task>
     <servers />
   </component>
@@ -128,35 +156,43 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1631974400307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631974400307" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1631973821911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631973821911" />
     <state x="1002" y="262" key="FileChooserDialogImpl" timestamp="1631697211147">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="1002" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697211147" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom" timestamp="1631267552754">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1632060396376">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
-    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1631261498292" />
-    <state width="914" height="278" key="GridCell.Tab.0.center" timestamp="1631267552754">
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632060396376" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1632060396360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
-    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1631261498292" />
-    <state width="914" height="278" key="GridCell.Tab.0.left" timestamp="1631267552754">
+    <state width="1877" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632060396360" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1632060396360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
-    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1631261498292" />
-    <state width="914" height="278" key="GridCell.Tab.0.right" timestamp="1631267552754">
+    <state width="1877" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632060396360" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1632060396360">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
-    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1631261498292" />
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1631962741613">
+    <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632060396360" />
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1632060206985">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697138520" />
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631962741613" />
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1632060206985" />
     <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631554505404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
@@ -165,9 +201,9 @@
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="605" y="141" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697212422" />
-    <state x="616" y="240" key="run.anything.popup" timestamp="1631962788400">
+    <state x="616" y="240" key="run.anything.popup" timestamp="1631974244550">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
-    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631962788400" />
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631974244550" />
   </component>
 </project>
