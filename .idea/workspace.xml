@@ -1,0 +1,203 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ChangeListManager">
+    <list default="true" id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    </list>
+    <option name="SHOW_DIALOG" value="false" />
+    <option name="HIGHLIGHT_CONFLICTS" value="true" />
+    <option name="HIGHLIGHT_NON_ACTIVE_CHANGELIST" value="false" />
+    <option name="LAST_RESOLUTION" value="IGNORE" />
+  </component>
+  <component name="FileTemplateManagerImpl">
+    <option name="RECENT_TEMPLATES">
+      <list>
+        <option value="Class" />
+      </list>
+    </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="ProjectId" id="1xuxG89piaZgT7D44sX9cVkIRlE" />
+  <component name="ProjectViewState">
+    <option name="hideEmptyMiddlePackages" value="true" />
+    <option name="showExcludedFiles" value="true" />
+    <option name="showLibraryContents" value="true" />
+  </component>
+  <component name="PropertiesComponent">
+    <property name="Downloaded.Files.Path.Enabled" value="false" />
+    <property name="Repository.Attach.Annotations" value="false" />
+    <property name="Repository.Attach.JavaDocs" value="false" />
+    <property name="Repository.Attach.Sources" value="false" />
+    <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="WebServerToolWindowFactoryState" value="false" />
+    <property name="aspect.path.notification.shown" value="true" />
+  </component>
+  <component name="RunManager" selected="JUnit.PhoneValidatorTest">
+    <configuration name="EmailValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GivenUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.EmailValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="EmailValidatorTest.specialCharacterFirst" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GivenUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.EmailValidatorTest" />
+      <option name="METHOD_NAME" value="specialCharacterFirst" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PasswordCheckerTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GivenUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.PasswordCheckerTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneValidatorTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GivenUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.PhoneValidatorTest" />
+      <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="PhoneValidatorTest.changeToCountryCode" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="Task1" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="GivenUnitTests.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="GivenUnitTests" />
+      <option name="MAIN_CLASS_NAME" value="GivenUnitTests.PhoneValidatorTest" />
+      <option name="METHOD_NAME" value="changeToCountryCode" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <recent_temporary>
+      <list>
+        <item itemvalue="JUnit.PhoneValidatorTest" />
+        <item itemvalue="JUnit.EmailValidatorTest" />
+        <item itemvalue="JUnit.PasswordCheckerTest" />
+        <item itemvalue="JUnit.PhoneValidatorTest.changeToCountryCode" />
+        <item itemvalue="JUnit.EmailValidatorTest.specialCharacterFirst" />
+      </list>
+    </recent_temporary>
+  </component>
+  <component name="SvnConfiguration">
+    <configuration />
+  </component>
+  <component name="TaskManager">
+    <task active="true" id="Default" summary="Default task">
+      <changelist id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="" />
+      <created>1631218675394</created>
+      <option name="number" value="Default" />
+      <option name="presentableId" value="Default" />
+      <updated>1631218675394</updated>
+      <workItem from="1631218678571" duration="3384000" />
+      <workItem from="1631259039569" duration="7818000" />
+      <workItem from="1631552378313" duration="4219000" />
+      <workItem from="1631697140251" duration="71000" />
+      <workItem from="1631877467942" duration="3269000" />
+      <workItem from="1631962570727" duration="856000" />
+      <workItem from="1631963594652" duration="852000" />
+      <workItem from="1631965224251" duration="9571000" />
+      <workItem from="1632060167539" duration="395000" />
+      <workItem from="1632301427072" duration="354000" />
+    </task>
+    <servers />
+  </component>
+  <component name="TypeScriptGeneratedFilesManager">
+    <option name="version" value="1" />
+  </component>
+  <component name="WindowStateProjectService">
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog" timestamp="1631974400307">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="92" y="92" width="1736" height="856" key="#com.intellij.execution.junit2.states.ComparisonFailureState$DiffDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1631974400307" />
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser" timestamp="1631973821911">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="765" y="205" key="#com.intellij.ide.util.MemberChooser/0.0.1920.1040@0.0.1920.1040" timestamp="1631973821911" />
+    <state x="1002" y="262" key="FileChooserDialogImpl" timestamp="1632301773722">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="1002" y="262" key="FileChooserDialogImpl/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632301773722" />
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom" timestamp="1632060565123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="278" key="GridCell.Tab.0.bottom/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
+    <state width="1877" height="220" key="GridCell.Tab.0.bottom/0.0.1920.1040@0.0.1920.1040" timestamp="1632060565123" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center" timestamp="1632060565123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="278" key="GridCell.Tab.0.center/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
+    <state width="1877" height="220" key="GridCell.Tab.0.center/0.0.1920.1040@0.0.1920.1040" timestamp="1632060565123" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left" timestamp="1632060565123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="278" key="GridCell.Tab.0.left/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
+    <state width="1877" height="220" key="GridCell.Tab.0.left/0.0.1920.1040@0.0.1920.1040" timestamp="1632060565123" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right" timestamp="1632060565123">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
+    <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632060565123" />
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1632301652941">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697138520" />
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1632301652941" />
+    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631554505404">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD/0.0.1920.1040@0.0.1920.1040" timestamp="1631554505404" />
+    <state x="605" y="141" key="new project wizard" timestamp="1632301782960">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="605" y="141" key="new project wizard/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1632301782960" />
+    <state x="616" y="240" key="run.anything.popup" timestamp="1631974244550">
+      <screen x="0" y="0" width="1920" height="1040" />
+    </state>
+    <state x="616" y="240" key="run.anything.popup/0.0.1920.1040@0.0.1920.1040" timestamp="1631974244550" />
+  </component>
+</project>
