@@ -1,5 +1,7 @@
-package com.company;
+package GivenUnitTests;
 
+import Validators.PasswordChecker;
+import Exceptions.InvalidPasswordException;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

@@ -1,5 +1,7 @@
-package com.company;
+package GivenUnitTests;
 
+import Validators.EmailValidator;
+import Exceptions.InvalidEmailException;
 
 import org.junit.jupiter.api.BeforeEach;
 import org.junit.jupiter.api.Test;

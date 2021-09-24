@@ -2,7 +2,16 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="a8c35d49-7a51-4f2e-8185-7223423d93c2" name="Default Changelist" comment="">
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidEmailException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidPasswordException.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/src/Exceptions/InvalidPhoneNumberException.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GivenUnitTests/EmailValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GivenUnitTests/EmailValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GivenUnitTests/PasswordCheckerTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GivenUnitTests/PasswordCheckerTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/GivenUnitTests/PhoneValidatorTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/GivenUnitTests/PhoneValidatorTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validators/EmailValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validators/EmailValidator.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validators/PasswordChecker.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validators/PasswordChecker.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/Validators/PhoneValidator.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/Validators/PhoneValidator.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -143,6 +152,7 @@
       <workItem from="1631965224251" duration="9571000" />
       <workItem from="1632060167539" duration="395000" />
       <workItem from="1632301427072" duration="354000" />
+      <workItem from="1632496527687" duration="976000" />
     </task>
     <servers />
   </component>
@@ -182,11 +192,11 @@
     </state>
     <state width="914" height="278" key="GridCell.Tab.0.right/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631267552754" />
     <state width="1877" height="220" key="GridCell.Tab.0.right/0.0.1920.1040@0.0.1920.1040" timestamp="1632060565123" />
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1632301652941">
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog" timestamp="1632496529997">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>
     <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040/1920.0.1920.1040@0.0.1920.1040" timestamp="1631697138520" />
-    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1632301652941" />
+    <state x="183" y="345" key="com.intellij.ide.util.TipDialog/0.0.1920.1040@0.0.1920.1040" timestamp="1632496529997" />
     <state x="184" y="418" key="com.intellij.jarRepository.RepositoryAttachDialog-DOWNLOAD" timestamp="1631554505404">
       <screen x="0" y="0" width="1920" height="1040" />
     </state>

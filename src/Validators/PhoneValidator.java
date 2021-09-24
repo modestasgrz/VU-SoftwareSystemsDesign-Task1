@@ -1,14 +1,16 @@
 package Validators;
 
-import GivenUnitTests.CountryRule;
-
 import java.util.*;
 
 public class PhoneValidator {
-    public static void addCountryRule(CountryRule countryRule) {
+    public PhoneValidator () {}
+    public PhoneValidator (HashMap<String, Integer> countries) {
+        this.countries = countries;
+    }
+    public void addCountryRule(CountryRule countryRule) {
         countryRules.add(countryRule);
     }
-    public static boolean validate(String phoneNumber) {
+    public boolean validate(String phoneNumber) {
         for (int i = 0; i < phoneNumber.length(); i++) {
             if ((phoneNumber.charAt(i) > 57 || phoneNumber.charAt(i) < 48) && phoneNumber.charAt(i) != '+') {
                 return false;
@@ -25,7 +27,7 @@ public class PhoneValidator {
         }
         return true;
     }
-    public static String formatNumberToString(String country, String phoneNumber) {
+    public String formatNumberToString(String country, String phoneNumber) {
         String prefix = "";
         boolean isPrefixAssigned = false;
         for (int i = 0; i < countryRules.size(); i++) {
@@ -40,10 +42,10 @@ public class PhoneValidator {
         }
         else return phoneNumber;
     }
-    public static void addNewCountryRule(CountryRule countryRule) {
+    public void addNewCountryRule(CountryRule countryRule) {
 
     }
-    private static List<CountryRule> countryRules = new ArrayList<>();
+    private HashMap<String, Integer> countries = new HashMap<>();
 }
 
 /*

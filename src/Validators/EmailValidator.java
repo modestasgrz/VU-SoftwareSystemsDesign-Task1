@@ -2,7 +2,7 @@ package Validators;
 
 public class EmailValidator {
 
-    public static boolean validate(String email) {
+    public boolean validate(String email) {
         //etaValidation
         int etaOccurence = 0;
         String specialSymbols = "\"(),:;<>@[\\]";
@@ -100,7 +100,7 @@ public class EmailValidator {
         return true;
     }
 
-    private static boolean hasCommetsInEmailAddress(String email) {
+    private boolean hasCommetsInEmailAddress(String email) {
         if (email.startsWith("(")) {
             for (char symbol : email.toCharArray()) {
                 if (symbol == ')') return true;
@@ -114,7 +114,7 @@ public class EmailValidator {
         return false;
     }
 
-    private static boolean hasTLD(String domain) {
+    private boolean hasTLD(String domain) {
         for (char symbol : domain.toCharArray()) {
             if (symbol == '.') return true;
         }
