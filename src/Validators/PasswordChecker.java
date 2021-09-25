@@ -1,5 +1,7 @@
 package Validators;
 
+import Exceptions.InvalidPasswordException;
+
 import java.util.List;
 
 public class PasswordChecker {
@@ -8,20 +10,23 @@ public class PasswordChecker {
         this.specialSymbolsList = specialSymbolsList;
         this.minLength = minLength;
     }
-    /*public void setSpecialCharacters(List<Character> specialCharacters) {
-        specialSymbolsList = specialCharacters;
-    }*/
-    public boolean validate(String password) {
+
+    public boolean validate(String password) throws InvalidPasswordException {
+
         //Password null?
         if (password == null) {
             System.out.println("Password is null");
-            return false;
+            throw new InvalidPasswordException();
+            //return false;
         }
+
         //Password length
         if (password.length() < minLength) {
             System.out.println("Password is too short");
-            return false;
+            throw new InvalidPasswordException();
+            //return false;
         }
+
         //UpperCase letters
         boolean isUpperCaseLettersPresent = false;
         for (int i = 0; i < password.length(); i++) {
@@ -32,32 +37,8 @@ public class PasswordChecker {
         }
         if (!isUpperCaseLettersPresent) {
             System.out.println("Missing upper case letters");
-            return false;
-        }
-        //LowerCase letters
-        boolean isLowerCaseCaseLettersPresent = false;
-        for (int i = 0; i < password.length(); i++) {
-            if (password.charAt(i) >= 97 && password.charAt(i) <= 122) {
-                isLowerCaseCaseLettersPresent = true;
-                break;
-            }
-        }
-        if (!isLowerCaseCaseLettersPresent) {
-            System.out.println("Missing lower case letters");
-            return false;
-        }
-
-        //Numbers
-        boolean isNumberPresent = false;
-        for (int i = 0; i < password.length(); i++) {
-            if (password.charAt(i) >= 48 && password.charAt(i) <= 57) {
-                isNumberPresent = true;
-                break;
-            }
-        }
-        if (!isNumberPresent) {
-            System.out.println("Missing number letters");
-            return false;
+            throw new InvalidPasswordException();
+            //return false;
         }
 
         //Special Characters
@@ -72,26 +53,50 @@ public class PasswordChecker {
         }
         if(!isSpecialCharacterPresent) {
             System.out.println("Missing special character");
-            return false;
+            throw new InvalidPasswordException();
+            //return false;
         }
 
-        return true;
-    }
-
-    /*
-    public void addSpecialCharacter(char character) {
-        specialSymbolsList.add(character);
-    }
-    public void remove(char character) {
-        for (int i = 0; i < specialSymbolsList.size(); i++) {
-            if (specialSymbolsList.get(i) == character) {
-                specialSymbolsList.remove(i);
-                break;
+        //Spaces in password
+        for (char symbol : password.toCharArray())  {
+            if (symbol == ' ' || symbol == '\t') {
+                throw new InvalidPasswordException();
+                //return false;
             }
         }
+        return true;
     }
-     */
 
     private char [] specialSymbolsList;
     private int minLength = 8;
 }
+
+/*
+        //LowerCase letters
+        boolean isLowerCaseCaseLettersPresent = false;
+        for (int i = 0; i < password.length(); i++) {
+            if (password.charAt(i) >= 97 && password.charAt(i) <= 122) {
+                isLowerCaseCaseLettersPresent = true;
+                break;
+            }
+        }
+        if (!isLowerCaseCaseLettersPresent) {
+            System.out.println("Missing lower case letters");
+            throw new InvalidPasswordException;
+            //return false;
+        }
+
+        //Numbers
+        boolean isNumberPresent = false;
+        for (int i = 0; i < password.length(); i++) {
+            if (password.charAt(i) >= 48 && password.charAt(i) <= 57) {
+                isNumberPresent = true;
+                break;
+            }
+        }
+        if (!isNumberPresent) {
+            System.out.println("Missing number letters");
+            throw new InvalidPasswordException;
+            //return false;
+        }
+         */

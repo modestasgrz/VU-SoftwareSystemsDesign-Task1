@@ -17,7 +17,7 @@ class PhoneValidatorTest {
 
     @BeforeEach
     public void beforeEach() {
-        countries.put("+370", 8); // (number prefix, number length)
+        countries.put("+370", 12); // (number prefix, number length)
         phoneValidator = new PhoneValidator(countries);
     }
 

@@ -1,5 +1,6 @@
 package Validators;
 
+import Exceptions.InvalidPhoneNumberException;
 import java.util.*;
 
 public class PhoneValidator {
@@ -7,44 +8,42 @@ public class PhoneValidator {
     public PhoneValidator (HashMap<String, Integer> countries) {
         this.countries = countries;
     }
-    public void addCountryRule(CountryRule countryRule) {
-        countryRules.add(countryRule);
-    }
-    public boolean validate(String phoneNumber) {
+
+    public String validate(String phoneNumber) throws InvalidPhoneNumberException {
+        //Null?
+        if (phoneNumber == null) {
+            throw new InvalidPhoneNumberException();
+        }
+        //Symbol validation
         for (int i = 0; i < phoneNumber.length(); i++) {
             if ((phoneNumber.charAt(i) > 57 || phoneNumber.charAt(i) < 48) && phoneNumber.charAt(i) != '+') {
-                return false;
+                throw new InvalidPhoneNumberException();
             }
         }
         if (phoneNumber.startsWith("+")) {
             boolean isRuleFound = false;
-            for (int i = 0; i < countryRules.size(); i++) {
-                if (phoneNumber.startsWith(countryRules.get(i).getPrefix())) {
+            String thisPrefix = "";
+            for (String prefix : countries.keySet()) {
+                if (phoneNumber.startsWith(prefix)) {
                     isRuleFound = true;
+                    thisPrefix = prefix;
                 }
             }
-            return isRuleFound;
-        }
-        return true;
-    }
-    public String formatNumberToString(String country, String phoneNumber) {
-        String prefix = "";
-        boolean isPrefixAssigned = false;
-        for (int i = 0; i < countryRules.size(); i++) {
-            if(countryRules.get(i).getCountry().equals(country)) {
-                prefix = countryRules.get(i).getPrefix();
-                isPrefixAssigned = true;
-                break;
+            if (!isRuleFound) {
+                throw new InvalidPhoneNumberException();
             }
+            //Wrong length
+            if (phoneNumber.length() != countries.get(thisPrefix)) {
+                System.out.println(phoneNumber.length());
+                throw new InvalidPhoneNumberException();
+            }
+        } //Change to +370
+        else {
+            return "+370" +  phoneNumber.substring(1);
         }
-        if (isPrefixAssigned && phoneNumber.startsWith("8")) {
-            return prefix +  phoneNumber.substring(1);
-        }
-        else return phoneNumber;
+        return phoneNumber;
     }
-    public void addNewCountryRule(CountryRule countryRule) {
 
-    }
     private HashMap<String, Integer> countries = new HashMap<>();
 }
 
